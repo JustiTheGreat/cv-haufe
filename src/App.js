@@ -1,18 +1,22 @@
+import React, {Component} from 'react';
 import './App.css';
+import Profile from './Profile.js';
 
-function App() {
-  return (
-    <div className="Background">
-      <div className="Col1">
-        <div className="Profile"><p>asda</p></div>
+class App extends Component {
+  render() {
+    return (
+      <div className="Container">
+        <div className="Col1">
+          <Profile />
+        </div>
+        <div className="Col2">
+          <div className="Block"><p>AboutMe</p></div>
+          <div className="Block"><p>Education</p></div>  
+          <div className="Block"><p>Skills</p></div>
+        </div>
       </div>
-      <div className="Col2">
-        <div className="AboutMe"><p>asda</p></div>
-        <div className="Education"><p>asda</p></div>  
-        <div className="Skills"><p>asda</p></div>
-      </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

@@ -1,0 +1,27 @@
+.Profile {
+  padding: 5%;
+  float: left;
+}
+.ProfilePicture {
+  width: 100%;
+  float: left;
+}
+.PictureInfo {
+  width: 100%;
+  float: left;
+  margin-top: 5%;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .Profile {
+    padding: 2%;
+  }
+  .ProfilePicture {
+    width: 30%;
+  }
+  .PictureInfo {
+    margin: 0 0 0 5%;
+    width: 65%;
+    vertical-align: middle;
+  }
+}

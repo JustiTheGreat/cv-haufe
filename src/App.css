@@ -1,23 +1,31 @@
-.Background {
-  background-color: red;
+.Container {
   width: 70%;
   margin: 0% 15% 0% 15%;
 }
 .Col1 {
-  background-color: blue;
+  background-color: gray;
   width: 20%;
-  margin-top: 50px;
   float: left;
+  margin-top: 50px;
+  height: fit-content;
 }
 .Col2 {
-  background-color: yellow;
+  background-color: gray;
   width: 75%;
+  float: left;
   margin-top: 50px;
-  float: right;
+  margin-left: 5%;
 }
-@media screen and (max-width: 450px){
-  .Col1, .Col2{
+@media screen and (max-width: 600px) {
+  .Container {
+    width: 90%;
+    margin: 0% 5% 0% 5%;
+  }
+  .Col1, .Col2 {
     width: 100%;
     margin-top: 20px;
+  }
+  .Col2 {
+    margin-left: 0px;
   }
 }
