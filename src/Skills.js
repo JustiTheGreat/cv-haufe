@@ -11,7 +11,7 @@ class Skills extends Component {
     f_add (skills) {
         let list = [];
         for(let i = 0; i < skills.length; i++)
-            vari.push(this.f(skills[i]));
+            list.push(this.f(skills[i]));
         return list;
     }
     
