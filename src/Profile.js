@@ -7,7 +7,9 @@ class Profile extends Component {
         return(
             <div className="Profile">
                 <div className="ProfilePicture"><img style={{width:'100%'}} src={profilePicture}></img></div>
-                <div className="PictureInfo"><p>{myName}<br />{myOccupation}</p></div>
+                <div className="PictureInfo">
+                    <div className="text">{myName}<br />{myOccupation}</div>
+                    </div>
             </div>
         );
     }
