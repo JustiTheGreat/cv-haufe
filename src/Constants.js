@@ -16,3 +16,6 @@ export const BGStyle = {
     backgroundSize:'1000px',
     backgroundPosition:'50% 50%'
 };
+
+export const skills = ["Microsoft Office","C","C++","Java","Design Patterns","OOP","MySql","JSP","Git",
+"Linux Shell","HTML","CSS","JavaScript"];

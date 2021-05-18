@@ -13,7 +13,6 @@
   float: left;
   width: 70%;
   margin-left: 5%;
-  background-color: white;
 }
 @media screen and (max-width: 700px) {
   .Container {

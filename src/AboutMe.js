@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
-import { gender, dateOfBirth, nationality, adress, email, tel } from './Constants';
+import { gender, dateOfBirth, nationality, adress, email, tel, BGStyle } from './Constants';
 import './Block.css';
-import {BGStyle} from './Constants';
 
 class AboutMe extends Component {
     f (tag,info) {
         return(
-            <div className="Info"><b>{tag}</b> {info}<br/></div>
+            <div className="Info"><b>{tag}</b> {info}</div>
         );
     }
     
     render() {
         return(
             <div className="Block" style={BGStyle}>
-                <div className="Title">About Me</div>
+                <div className="Title">ABOUT ME</div>
                 {this.f('Gender:',gender)}
                 {this.f('Date of birth:',dateOfBirth)}
                 {this.f('Nationality:',nationality)}
