@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import Profile from './Profile.js';
+import AboutMe from './AboutMe.js';
 
 class App extends Component {
   render() {
@@ -10,7 +11,7 @@ class App extends Component {
           <Profile />
         </div>
         <div className="Col2">
-          <div className="Block"><p>AboutMe</p></div>
+          <AboutMe />
           <div className="Block"><p>Education</p></div>  
           <div className="Block"><p>Skills</p></div>
         </div>

@@ -1,22 +1,21 @@
 .Container {
   float: left;
-  width: 60%;
+  width: 66%;
   margin: 20px 15% 20px 15%;
-  padding: 20px 5% 20px 5%;
+  padding: 20px 3% 20px 3%;
   background-color: #f0f0f0;
 }
 .Col1 {
   float: left;
-  width: 20%;
-  background-color: white;
+  width: 25%;
 }
 .Col2 {
   float: left;
-  width: 75%;
+  width: 70%;
   margin-left: 5%;
   background-color: white;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .Container {
     width: 88%;
     margin: 10px 3% 10px 3%;
