@@ -23,12 +23,6 @@
     84%{color:indigo;}
     100%{color:violet;}
 }
-.Info {
-    float: left;
-    margin: 1%;
-    padding: 1%;
-    width: 46%;
-}
 @media screen and (max-width: 800px) {
     .Title{
         font-size: 20px;
@@ -53,3 +47,27 @@
         font-size: 16px;
     }
   }
+.Info {
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    width: 46%;
+}
+.Skills{
+    float: left;
+    margin-top: 4%;
+}
+.Skill {
+    float: left;
+    margin: 1%;
+    border-radius: 25px;
+    min-width: 31%;
+    text-align: center;
+    box-shadow: 5px 5px 5px black;
+}
+.Skill:hover {
+    background-color: #f0f0f0;
+    animation: rainbow 3s linear infinite;
+    font-weight: bold   ;
+    box-shadow: 5px 5px 5px gray;
+}
