@@ -1,25 +1,14 @@
 import React, {Component} from 'react';
-import {BGStyle, skills} from './Constants';
-import './Block.css';
-class Skills extends Component {
-    f (skill) {
-        return(
-            <div className="Skill">{skill}</div>
-        );
-    }
+import SkillsCSS from './Block.module.css';
+import {BGStyle, skills} from './Constants.js';
 
-    f_add (skills) {
-        let list = [];
-        for(let i = 0; i < skills.length; i++)
-            list.push(this.f(skills[i]));
-        return list;
-    }
-    
+
+class Skills extends Component {
     render() {
         return(
-            <div className="Block" style={BGStyle} id="skills">
-                <div className="Title">PROFESSIONAL SKILLS</div>
-                {this.f_add(skills)}
+            <div className={SkillsCSS.Block} style={BGStyle} id="skills">
+                <div className={SkillsCSS.Title}>PROFESSIONAL SKILLS</div>
+                {skills.map(skill=><div className={SkillsCSS.Skill} key={skill}>{skill}</div>)}
             </div>
         );
     }

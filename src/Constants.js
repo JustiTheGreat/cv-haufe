@@ -13,7 +13,7 @@ const red = process.env.PUBLIC_URL + "/red_crayon.jpg";
 export const BGStyle = {
     backgroundImage:`url(${red})`,
     backgroundRepeat:'no-repeat',
-    backgroundSize:'1000px',
+    backgroundSize:'800px',
     backgroundPosition:'50% 50%'
 };
 
