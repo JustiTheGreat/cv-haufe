@@ -39,4 +39,4 @@ export const education = [
         institution:'Politehnica University of Timisoara',
         website:'http://www.ac.upt.ro/'
     }
-]
+];

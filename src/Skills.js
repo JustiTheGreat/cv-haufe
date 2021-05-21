@@ -7,12 +7,8 @@ class Skills extends Component {
         return(
             <div className={SkillsCSS.Block} style={BGStyle}>
                 <div className={SkillsCSS.Title}>PROFESSIONAL SKILLS</div>
-                <div className={SkillsCSS.Skills}>
-                    {skills.map(skill=>
-                        <div className={SkillsCSS.Skill} key={skill}>
-                            {skill}
-                        </div>
-                    )}
+                <div className={SkillsCSS.Content}>
+                    {skills.map(skill=><div className={SkillsCSS.Skill} key={skill}>{skill}</div>)}
                 </div>
             </div>
         );

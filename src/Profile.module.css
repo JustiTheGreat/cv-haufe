@@ -1,9 +1,7 @@
 .Profile {
   float: left;
-  width: 98%;
   border: double 7px gray;
   box-shadow: 5px 5px 5px gray;
-  background-color: white;
 }
 .ProfilePicture {
   float: left;

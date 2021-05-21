@@ -7,12 +7,13 @@
 }
 .Col1 {
   float: left;
-  width: 25%;
+  width: 18%;
+  position: fixed;
 }
 .Col2 {
   float: left;
   width: 70%;
-  margin-left: 5%;
+  margin-left: 30%;
 }
 @media screen and (max-width: 700px) {
   .Container {
@@ -20,11 +21,15 @@
     margin: 10px 3% 10px 3%;
     padding: 10px 3% 10px 3%;
   }
-  .Col1, .Col2 {
+  .Col1,.Col2 {
     width: 100%;
   }
+  .Col1 {
+    position: initial;
+  }
   .Col2 {
+    position: initial;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 }

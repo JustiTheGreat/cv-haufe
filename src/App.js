@@ -3,6 +3,7 @@ import AppCSS from './App.module.css';
 import Profile from './Profile.js';
 import AboutMe from './AboutMe.js';
 import Skills from './Skills.js';
+import Education from './Education.js';
 
 class App extends Component {
   render() {
@@ -14,8 +15,7 @@ class App extends Component {
         <div className={AppCSS.Col2}>
           <AboutMe/>
           <Skills/>
-          <div className="Block"><p>Education</p></div>  
-          <div className="Block"><p>Skills</p></div>
+          <Education/>
         </div>
       </div>
     );

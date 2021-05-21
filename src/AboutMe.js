@@ -7,7 +7,9 @@ class AboutMe extends Component {
         return(
             <div className={AboutMeCSS.Block} style={BGStyle}>
                 <div className={AboutMeCSS.Title}>ABOUT ME</div>
-                {info.map(i=><div className={AboutMeCSS.Info}><b>{i.key}</b> {i.val}</div>)}
+                <div className={AboutMeCSS.Content}>
+                    {info.map(i=><div className={AboutMeCSS.Info} key={i.key}><b>{i.key}</b> {i.val}</div>)}
+                </div>
             </div>
         );
     }

@@ -8,11 +8,14 @@
     font-size: 18px;
 }
 .Title {
-    margin: 1% 0 1% 1%;
+    margin: 1% 1% 5% 1%;
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;
     animation: rainbow 3s linear infinite;
+}
+.Content{
+    float: left;
 }
 @keyframes rainbow {
     0%{color:red;}
@@ -23,6 +26,45 @@
     84%{color:indigo;}
     100%{color:violet;}
 }
+.Info {
+    float: left;
+    margin: 1%;
+    padding: 1%;
+    width: 46%;
+}
+.Skill {
+    float: left;
+    margin: 1%;
+    border: 2px dashed gray;
+    border-radius: 25px;
+    min-width: 30%;
+    text-align: center;
+    transition: all 0.5s;
+}
+.Skill:hover {
+    background-color: #f0f0f0;
+    animation: rainbow 3s linear infinite;
+    font-weight: bold   ;
+    box-shadow: 5px 5px 5px gray;
+    transform: scale(1.3);
+}
+.Education{
+    margin:2% 1% 0 1%;
+    padding: 1%;
+    border: 2px dashed gray;
+    transition: all 0.5s;
+}
+.Education:hover{
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 5px gray;
+}
+.Degree{
+    font-weight: bold;
+    font-size: 26px;
+}
+a:hover,.a:visited, .a:active{
+    animation: rainbow 3s linear infinite;
+}
 @media screen and (max-width: 800px) {
     .Title{
         font-size: 20px;
@@ -30,13 +72,19 @@
     .Block{
         font-size: 12px;
     }
+    .Degree{
+        font-size: 16px;
+    }
   }
-@media screen and (min-width: 800px) and (max-width: 930px){
+@media screen and (min-width: 800px) and (max-width: 970px){
     .Title{
         font-size: 23px;
     }
     .Block{
         font-size: 14px;
+    }
+    .Degree{
+        font-size: 20px;
     }
   }
 @media screen and (min-width: 930px) and (max-width: 1050px){
@@ -47,27 +95,3 @@
         font-size: 16px;
     }
   }
-.Info {
-    float: left;
-    margin: 1%;
-    padding: 1%;
-    width: 46%;
-}
-.Skills{
-    float: left;
-    margin-top: 4%;
-}
-.Skill {
-    float: left;
-    margin: 1%;
-    border-radius: 25px;
-    min-width: 31%;
-    text-align: center;
-    box-shadow: 5px 5px 5px black;
-}
-.Skill:hover {
-    background-color: #f0f0f0;
-    animation: rainbow 3s linear infinite;
-    font-weight: bold   ;
-    box-shadow: 5px 5px 5px gray;
-}
