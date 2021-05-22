@@ -4,6 +4,7 @@ import Profile from './Profile.js';
 import AboutMe from './AboutMe.js';
 import Skills from './Skills.js';
 import Education from './Education.js';
+import Languages from './Languages.js';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <AboutMe/>
           <Skills/>
           <Education/>
+          <Languages/>
         </div>
       </div>
     );

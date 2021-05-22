@@ -40,3 +40,16 @@ export const education = [
         website:'http://www.ac.upt.ro/'
     }
 ];
+
+export const language_skills = {
+    mother_tongue:'Romanian',
+    cat_width:'20%',
+    categories:['Listening','Reading','Spoken production','Spoken interaction','Writing'],
+    languages:
+        [
+            {
+                name:'English',
+                c:['B2','B1','B2','B2','B2']
+            }
+        ]
+    };
