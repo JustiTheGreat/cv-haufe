@@ -2,6 +2,7 @@
   float: left;
   border: double 7px gray;
   box-shadow: 5px 5px 5px gray;
+  width:98%;
 }
 .ProfilePicture {
   float: left;

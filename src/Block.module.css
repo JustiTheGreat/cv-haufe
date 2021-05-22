@@ -81,6 +81,11 @@ td{
     border-left: 2px dashed gray;
     border-right: 2px dashed gray;
 }
+@media screen and (max-width: 380px) {
+    .Skill{
+        width:46%;
+    }
+}
 @media screen and (max-width: 800px) {
     .Title{
         font-size: 20px;

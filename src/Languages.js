@@ -8,15 +8,18 @@ class Languages extends Component {
             <div className={LanguagesCSS.Block} style={BGStyle}>
                 <div className={LanguagesCSS.Title}>LANGUAGE SKILLS</div>
                 <div className={LanguagesCSS.Content}>
-                    <div><b>Mother tongue(s):</b> {ls.mother_tongue}<br/><b>Other language(s):</b></div>
+                    <div><b>Mother tongue:</b> {ls.mother_tongue}</div>
+                    <div><b>Other languages:</b></div>
                     {ls.languages.map(l=>
                         <div className={LanguagesCSS.Language} key={l.name}>
                             <div><b>Language:</b> {l.name}</div>
                             <br/>
-                            <tbody>
-                                <tr>{ls.categories.map(c=><td style={{width:ls.cat_width}}><b>{c}</b></td>)}</tr>
-                                <tr>{l.c.map(c=><td>{c}</td>)}</tr>
-                            </tbody>
+                            <table>
+                                <tbody>
+                                    <tr>{ls.categories.map(c=><td style={{width:ls.cat_width}}><b>{c}</b></td>)}</tr>
+                                    <tr>{l.c.map(c=><td>{c}</td>)}</tr>
+                                </tbody>
+                            </table>
                         </div>
                     )}
                 </div>
